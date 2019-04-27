@@ -1,0 +1,68 @@
+<idea-plugin>
+    <id>com.fernandojimenez.mattecarbon.theme</id>
+    <name>Carbon Theme</name>
+    <version>2.0.2</version>
+    <vendor email="luisfer.0793@gmail.com" url="https://github.com/luisfer0793">Luis Fernando Jiménez</vendor>
+
+    <description><![CDATA[
+      A minimal dark and light matte theme for Jetbrains suite.
+    ]]></description>
+
+    <change-notes><![CDATA[
+      <ul>
+          <li>
+              <b>2.0.2</b>
+              <ul>
+                  <li>Fixed some VCS colors.</li>
+                  <li>Fixed some button colors.</li>
+              </ul>
+          </li>
+          <li>
+              <b>2.0.1</b>
+              <ul>
+                  <li>Minor color changes.</li>
+              </ul>
+          </li>
+          <li>
+              <b>2.0</b>
+              <ul>
+                  <li>Added a completely new light base theme.</li>
+                  <li>Fixed some ui colors.</li>
+                  <li>Fixed some version control colors.</li>
+              </ul>
+          </li>
+          <li>
+              <b>1.1</b>
+              <ul>
+                  <li>Fixed some VCS colors.</li>
+              </ul>
+          </li>
+          <li>
+              <b>1.0</b>
+              <ul>
+                  <li>Initial release.</li>
+              </ul>
+          </li>
+      </ul>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="191.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="550230d7-9636-4d03-9506-23e40b91bfb3" path="/matte_carbon_basics.theme.json"/>
+        <themeProvider id="f203e4e7-3d50-4a86-823c-3a778ed25095" path="/light_carbon_basics.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
