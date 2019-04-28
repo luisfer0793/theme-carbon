@@ -1,5 +1,3 @@
-# MatteCarbonTheme
+<center><h1>Carbon Theme</h1></center>
 
-An elegant dark theme for Jetbrains Suite
-
-![Code sample](https://i.ibb.co/P4GxWsm/screenshot3.png)
+<center><img src="https://i.ibb.co/QXPFSnS/Recurso-7.png"></center>
