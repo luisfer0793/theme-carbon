@@ -7,7 +7,8 @@
         "*": {
             "background": "#f2f3f4",
             "foreground": "#2c3e50",
-            "selectionBackground": "#75BAB5",
+            "selectionBackground": "#91d9d2",
+            "selectionForeground": "#2c3e50",
             "selectionBackgroundInactive": "#D5D5D5",
             "selectionInactiveBackground": "#D5D5D5",
             "disabledForeground": "#8C8C8C",
@@ -15,7 +16,7 @@
             "inactiveForeground": "#8C8C8C",
             "infoForeground": "#808080",
             "modifiedItemForeground": "#0a7285",
-            "acceleratorSelectionForeground": "#FFFFFF",
+            "acceleratorSelectionForeground": "#2c3e50",
             "separatorColor": "#E1E3E6",
             "borderColor": "#E1E3E6"
         },

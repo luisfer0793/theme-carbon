@@ -71,7 +71,6 @@
         "Counter.background": "#0A677A",
         "Counter.foreground": "#bac8cb",
         "Group.disabledSeparatorColor": "#213047",
-        "darcula.background": "#172030",
         "SplitPane.background": "#172030",
         "Viewport.background": "#172030",
         "Editor": {
@@ -154,6 +153,7 @@
             "Toolbar.borderColor": "#213047",
             "Header.activeBackground": "#172030",
             "Header.inactiveBackground": "#172030",
+            "separatorForeground": "#213047",
             "Advertiser": {
                 "foreground": "#bac8cb",
                 "borderColor": "#213047",
@@ -166,7 +166,7 @@
         },
         "ProgressBar": {
             "trackColor": "#1E2A3E",
-            "progressColor": "#026c73",
+            "progressColor": "#029098",
             "indeterminateStartColor": "#02858e",
             "indeterminateEndColor": "#2cb0a7",
             "failedColor": "#ff4262",
