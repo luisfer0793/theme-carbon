@@ -42,35 +42,36 @@
     <option name="HTML_TAG_TREE_LEVEL3" value="a93e5e" />
     <option name="HTML_TAG_TREE_LEVEL4" value="1d9b95" />
     <option name="HTML_TAG_TREE_LEVEL5" value="ff3e83" />
-    <option name="INDENT_GUIDE" value="3e4752" />
+    <option name="INDENT_GUIDE" value="1e2e42" />
     <option name="INFORMATION_HINT" value="1e2a3e" />
     <option name="LINE_NUMBERS_COLOR" value="465063" />
     <option name="METHOD_SEPARATORS_COLOR" value="3e4752" />
     <option name="MODIFIED_LINES_COLOR" value="214760" />
     <option name="QUESTION_HINT" value="26770" />
-    <option name="RIGHT_MARGIN_COLOR" value="1a2335" />
     <option name="SELECTED_INDENT_GUIDE" value="687586" />
     <option name="SELECTED_TEARLINE_COLOR" value="4e5867" />
     <option name="SELECTION_BACKGROUND" value="214760" />
     <option name="SEPARATOR_ABOVE_COLOR" value="213047" />
     <option name="SEPARATOR_BELOW_COLOR" value="213047" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="0A677A" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="a7285" />
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="172030" />
-    <option name="ScrollBar.Mac.Transparent.thumbColor" value="0A677A" />
+    <option name="ScrollBar.Mac.Transparent.thumbColor" value="a7285" />
     <option name="ScrollBar.Mac.Transparent.trackColor" value="172030" />
     <option name="ScrollBar.Mac.hoverTrackColor" value="172030" />
-    <option name="ScrollBar.Mac.thumbColor" value="0A677A" />
+    <option name="ScrollBar.Mac.thumbColor" value="a7285" />
     <option name="ScrollBar.Mac.trackColor" value="172030" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="0A677A" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="a7285" />
     <option name="ScrollBar.Transparent.hoverTrackColor" value="172030" />
-    <option name="ScrollBar.Transparent.thumbColor" value="0A677A" />
+    <option name="ScrollBar.Transparent.thumbColor" value="a7285" />
     <option name="ScrollBar.Transparent.trackColor" value="172030" />
+    <option name="ScrollBar.hoverThumbColor" value="a7285" />
     <option name="ScrollBar.hoverTrackColor" value="172030" />
-    <option name="ScrollBar.thumbColor" value="0A677A" />
+    <option name="ScrollBar.thumbColor" value="a7285" />
     <option name="ScrollBar.trackColor" value="172030" />
     <option name="TEARLINE_COLOR" value="3e4752" />
-    <option name="VISUAL_INDENT_GUIDE" value="3e4752" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="214760" />
+    <option name="RIGHT_MARGIN_COLOR" value="1e2e42" />
+    <option name="VISUAL_INDENT_GUIDE" value="1e2e42" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -241,6 +242,12 @@
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="DEFAULT_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="db7090" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="5d6976" />
@@ -356,10 +363,14 @@
         <option name="FOREGROUND" value="a3e0de" />
       </value>
     </option>
-    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
+    <option name="DEFAULT_TAG">
       <value>
-        <option name="BACKGROUND" value="1e2a3e" />
+        <option name="FOREGROUND" value="577178" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
+    </option>
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
+      <value />
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
@@ -369,14 +380,20 @@
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="8f3b3b" />
-        <option name="ERROR_STRIPE_COLOR" value="8f3b3b" />
+        <option name="BACKGROUND" value="4b2234" />
+        <option name="ERROR_STRIPE_COLOR" value="db7090" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
         <option name="BACKGROUND" value="82f3b" />
-        <option name="ERROR_STRIPE_COLOR" value="447152" />
+        <option name="ERROR_STRIPE_COLOR" value="57a464" />
+      </value>
+    </option>
+    <option name="DIFF_MODIFIED">
+      <value>
+        <option name="BACKGROUND" value="1e2a3e" />
+        <option name="ERROR_STRIPE_COLOR" value="43698d" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
@@ -408,20 +425,10 @@
     <option name="HAML_ID" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
     <option name="HAML_TAG" baseAttributes="TEXT" />
-    <option name="HTML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="db7090" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
+    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
-    <option name="HTML_TAG">
-      <value>
-        <option name="FOREGROUND" value="577178" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
+    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="db6a6f" />
@@ -450,14 +457,14 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="c2c2c2" />
-        <option name="BACKGROUND" value="213043" />
+        <option name="FOREGROUND" value="7e8796" />
+        <option name="BACKGROUND" value="1e2a3e" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
-        <option name="FOREGROUND" value="acacac" />
-        <option name="BACKGROUND" value="213043" />
+        <option name="FOREGROUND" value="7e8796" />
+        <option name="BACKGROUND" value="1e2a3e" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
@@ -473,6 +480,11 @@
       </value>
     </option>
     <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JSP_SCRIPTING_BACKGROUND">
+      <value>
+        <option name="FOREGROUND" value="7e8796" />
+      </value>
+    </option>
     <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
     <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
@@ -570,20 +582,10 @@
         <option name="FOREGROUND" value="ff4262" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="db7090" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
-    <option name="XML_TAG">
-      <value>
-        <option name="FOREGROUND" value="b85c5c" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
+    <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
   </attributes>
   <option name="FONT_SCALE" value="1.0" />
