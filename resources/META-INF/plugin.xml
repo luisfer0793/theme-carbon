@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.fernandojimenez.mattecarbon.theme</id>
     <name>Carbon Theme</name>
-    <version>2.2</version>
+    <version>2.3</version>
     <vendor email="luisfer.0793@gmail.com" url="https://github.com/luisfer0793">Luis Fernando Jiménez</vendor>
 
     <description><![CDATA[
@@ -10,6 +10,13 @@
 
     <change-notes><![CDATA[
       <ul>
+          <li>
+              <b>2.3</b>
+              <ul>
+                  <li>Updated lenguaje defaults syntax.</li>
+                  <li>Added Python syntax coloring.</li>
+              </ul>
+          </li>
           <li>
               <b>2.2</b>
               <ul>

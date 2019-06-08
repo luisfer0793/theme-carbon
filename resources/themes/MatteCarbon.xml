@@ -5,7 +5,7 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="51966b" />
     <option name="CARET_COLOR" value="ff4262" />
-    <option name="CARET_ROW_COLOR" value="1f2a38" />
+    <option name="CARET_ROW_COLOR" value="1e2a3e" />
     <option name="CONSOLE_BACKGROUND_KEY" value="172030" />
     <option name="DELETED_LINES_COLOR" value="ff4262" />
     <option name="DIAGRAM_ANNOTATION_EDGE" value="8f9948" />
@@ -30,7 +30,6 @@
     <option name="FILESTATUS_MODIFIED" value="65b7ec" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="65b7ec" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="65b7ec" />
-    <option name="FILESTATUS_RENAMED" value="3a8484" />
     <option name="FILESTATUS_UNKNOWN" value="ff6464" />
     <option name="FILESTATUS_addedOutside" value="9cde65" />
     <option name="FILESTATUS_changelistConflict" value="ff6464" />
@@ -48,6 +47,7 @@
     <option name="METHOD_SEPARATORS_COLOR" value="3e4752" />
     <option name="MODIFIED_LINES_COLOR" value="214760" />
     <option name="QUESTION_HINT" value="26770" />
+    <option name="RIGHT_MARGIN_COLOR" value="1e2e42" />
     <option name="SELECTED_INDENT_GUIDE" value="687586" />
     <option name="SELECTED_TEARLINE_COLOR" value="4e5867" />
     <option name="SELECTION_BACKGROUND" value="214760" />
@@ -69,9 +69,8 @@
     <option name="ScrollBar.thumbColor" value="a7285" />
     <option name="ScrollBar.trackColor" value="172030" />
     <option name="TEARLINE_COLOR" value="3e4752" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="214760" />
-    <option name="RIGHT_MARGIN_COLOR" value="1e2e42" />
     <option name="VISUAL_INDENT_GUIDE" value="1e2e42" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="214760" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -169,6 +168,9 @@
     <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
       <value />
     </option>
+    <option name="CSS.BRACES">
+      <value />
+    </option>
     <option name="CSS.CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="db7090" />
@@ -254,6 +256,16 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_BRACES">
+      <value>
+        <option name="FOREGROUND" value="db6378" />
+      </value>
+    </option>
+    <option name="DEFAULT_BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="db6378" />
+      </value>
+    </option>
     <option name="DEFAULT_COMMA">
       <value />
     </option>
@@ -318,8 +330,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="db6a6f" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="db6b84" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -330,7 +341,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="a3e0de" />
+        <option name="FOREGROUND" value="eabe99" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -344,8 +355,16 @@
         <option name="FOREGROUND" value="eabe99" />
       </value>
     </option>
+    <option name="DEFAULT_PREDEFINED_SYMBOL">
+      <value>
+        <option name="FOREGROUND" value="2858e" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="DEFAULT_SEMICOLON">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="db6378" />
+      </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
@@ -365,7 +384,7 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="577178" />
+        <option name="FOREGROUND" value="305e80" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -431,8 +450,7 @@
     <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="db6a6f" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="f04a6b" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -444,8 +462,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="1e2a3e" />
-        <option name="EFFECT_COLOR" value="3e4752" />
+        <option name="EFFECT_COLOR" value="305e80" />
         <option name="ERROR_STRIPE_COLOR" value="2c4e68" />
       </value>
     </option>
@@ -510,7 +527,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="586e75" />
+        <option name="EFFECT_COLOR" value="305e80" />
       </value>
     </option>
     <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
@@ -580,21 +597,65 @@
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff4262" />
+        <option name="EFFECT_COLOR" value="ff4262" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
-    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="f04a6b" />
+      </value>
+    </option>
   </attributes>
   <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code" />
+  <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="EDITOR_FONT_NAME" value="Consolas" />
   <option name="EDITOR_LIGATURES" value="true" />
-  <option name="CONSOLE_FONT_NAME" value="Fira Code" />
-  <option name="CONSOLE_FONT_SIZE" value="13" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
+
+  <option name="PY.BUILTIN_NAME">
+    <value>
+      <option name="FOREGROUND" value="56b6c2" />
+    </value>
+  </option>
+  <option name="PY.DECORATOR">
+    <value>
+      <option name="FOREGROUND" value="EABE99" />
+    </value>
+  </option>
+  <option name="PY.KEYWORD">
+    <value>
+      <option name="FOREGROUND" value="DB6B84" />
+    </value>
+  </option>
+  <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+  <option name="PY.PREDEFINED_DEFINITION">
+    <value>
+      <option name="FOREGROUND" value="ef6272" />
+    </value>
+  </option>
+  <option name="PY.PREDEFINED_USAGE">
+    <value>
+      <option name="FOREGROUND" value="e06c75" />
+    </value>
+  </option>
+  <option name="PY.SELF_PARAMETER">
+    <value>
+      <option name="FOREGROUND" value="EABE99" />
+    </value>
+  </option>
+  <option name="PY.STRING">
+    <value>
+      <option name="FOREGROUND" value="A3E0DE" />
+    </value>
+  </option>
+  <option name="PY.STRING.B">
+    <value>
+      <option name="FOREGROUND" value="A3E0DE" />
+    </value>
+  </option>
 </scheme>
