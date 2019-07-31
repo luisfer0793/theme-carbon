@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="778a1332-fc35-43bd-b4c8-c60f578e1539" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/themes/Carbon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/themes/Carbon.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +111,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="settings.editor.splitter.proportion" value="0.213858" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -314,6 +315,9 @@
       <workItem from="1564592671917" duration="73000" />
       <workItem from="1564595259674" duration="2593000" />
       <workItem from="1564597877176" duration="47000" />
+      <workItem from="1564597952451" duration="262000" />
+      <workItem from="1564598237314" duration="76000" />
+      <workItem from="1564614188671" duration="154000" />
     </task>
     <task id="LOCAL-00001" summary="First Release">
       <created>1555903423595</created>
@@ -385,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564597657145</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Version 2.4">
+      <created>1564598170068</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564598170068</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
