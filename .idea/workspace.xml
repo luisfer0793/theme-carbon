@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778a1332-fc35-43bd-b4c8-c60f578e1539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarbonTheme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CarbonTheme.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/light_carbon_basics.theme.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/matte_carbon_basics.theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/matte_carbon_basics.theme.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/themes/MatteCarbon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/themes/MatteCarbon.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +110,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="settings.editor.splitter.proportion" value="0.213858" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -319,7 +312,8 @@
       <workItem from="1559977285076" duration="123000" />
       <workItem from="1564589047161" duration="3580000" />
       <workItem from="1564592671917" duration="73000" />
-      <workItem from="1564595259674" duration="2156000" />
+      <workItem from="1564595259674" duration="2593000" />
+      <workItem from="1564597877176" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="First Release">
       <created>1555903423595</created>
@@ -384,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557011079400</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Version 2.4">
+      <created>1564597657145</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564597657145</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -455,7 +456,8 @@
     <MESSAGE value="Version 2.0.2" />
     <MESSAGE value="Version 2.1" />
     <MESSAGE value="Version 2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 2.2" />
+    <MESSAGE value="Version 2.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 2.4" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

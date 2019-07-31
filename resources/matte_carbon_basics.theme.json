@@ -1,8 +1,8 @@
 {
-    "name": "Matte Carbon",
+    "name": "Carbon",
     "dark": true,
     "author": "Luis Fernando Jimenez",
-    "editorScheme": "/themes/MatteCarbon.xml",
+    "editorScheme": "/themes/Carbon.xml",
     "ui": {
         "*": {
             "foreground": "#bac8cb",
