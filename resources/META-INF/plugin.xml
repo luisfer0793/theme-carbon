@@ -1,15 +1,22 @@
 <idea-plugin>
     <id>com.fernandojimenez.mattecarbon.theme</id>
     <name>Carbon Theme</name>
-    <version>2.3</version>
+    <version>2.4</version>
     <vendor email="luisfer.0793@gmail.com" url="https://github.com/luisfer0793">Luis Fernando Jiménez</vendor>
 
     <description><![CDATA[
-      A minimal dark and light matte theme for Jetbrains suite.
+      A minimal dark matte theme for Jetbrains suite.
     ]]></description>
 
     <change-notes><![CDATA[
       <ul>
+          <li>
+              <b>2.4</b>
+              <ul>
+                  <li>Update editor tab colors for IntelliJ 2019.2 compatibility.</li>
+                   <li>Syntax color changes.</li>
+              </ul>
+          </li>
           <li>
               <b>2.3</b>
               <ul>
@@ -70,7 +77,7 @@
     </change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="191.0"/>
+    <idea-version since-build="191.0" until-build="192.*"/>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
@@ -80,7 +87,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <themeProvider id="550230d7-9636-4d03-9506-23e40b91bfb3" path="/matte_carbon_basics.theme.json"/>
-        <themeProvider id="f203e4e7-3d50-4a86-823c-3a778ed25095" path="/light_carbon_basics.theme.json"/>
     </extensions>
 
     <actions>
